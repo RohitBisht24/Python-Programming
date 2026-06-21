@@ -1,0 +1,9 @@
+print(True)         # True
+print(False)        # False
+print(type(True))   # boolean
+print(bool(123))    # True
+print(bool("Hi"))   # True
+print(bool())       # False
+print(bool(0))      # False
+print(bool(""))     # False
+print(bool(None))   # False
