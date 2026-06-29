@@ -20,7 +20,7 @@ print(3 not in [1,2,3])
 # validate that the domain in not on the baned list
 
 domain ="gmail.com"
-banned_domains = ["span.copmm", "fake.org", "bot.net"]
+banned_domains = ["span.copm", "fake.org", "bot.net"]
 
 print(domain not in banned_domains)
 

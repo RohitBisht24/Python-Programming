@@ -35,3 +35,9 @@ print(all([email, phone, username]))
 print(isinstance(123, int))         # True
 print(isinstance("hello", str))     # True
 print(isinstance(3.12,  float))     # True
+
+age = 33.3
+
+print(type(age))
+print(isinstance(age, int))
+
