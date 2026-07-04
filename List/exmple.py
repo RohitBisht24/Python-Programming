@@ -18,9 +18,7 @@ print(numbers[-1])  # 40
 
 
 # change items
-
 numbers = [10,20,30]
-
 numbers[1] = 100
 
 print(numbers)      # [10,100,30]
