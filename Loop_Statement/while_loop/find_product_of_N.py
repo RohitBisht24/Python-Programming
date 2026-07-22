@@ -6,7 +6,7 @@ product = 1
 while i <= num:
     product *= i
     i += 1
-    1
+    
 print(product)
 
 

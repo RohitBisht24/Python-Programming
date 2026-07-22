@@ -1,5 +1,4 @@
 # check Prime Number or not
-
 num = int(input("Enter the Number : "))
 
 i = 2

@@ -12,3 +12,4 @@ if original_num == reverse:
     print("Palindrome Number.")
 else:
     print("not a Palindrome.")
+    
