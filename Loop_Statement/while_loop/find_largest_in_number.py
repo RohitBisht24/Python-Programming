@@ -10,6 +10,4 @@ while num > 0:
 
     num //= 10
 
-
-
 print("Largest Number is : ", largest)
