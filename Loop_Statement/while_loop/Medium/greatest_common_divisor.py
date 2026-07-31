@@ -1,11 +1,14 @@
-# Find the GCD of two numbers using while loop.
+# Find the GCD(greatest common divisor) of two numbers using while loop.
 
 num1 = int(input("Enter the fist Number : "))
 num2 = int(input("Enter the second Number : "))
 
-i = 2
-while True:
+# small = min(num1, num2)
+i = 1
+gcd = 1
+while i <= min(num1, num2):
     if num1 % i == 0 and num2 % i == 0:
-        print(f"{num1} and {num2} is greater common divisor num : {i}")
-        break
+        gcd = i
     i += 1
+
+print("Greatest Common Divisor : ", gcd)
