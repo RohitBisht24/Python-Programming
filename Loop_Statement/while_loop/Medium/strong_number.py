@@ -3,6 +3,7 @@
 num = int(input("Enter a number. : "))
 
 i = 1
+total = 0
 factorial = 1
 original = num
 
@@ -13,7 +14,7 @@ while num > 0:
         factorial = factorial*i
         i += 1
 
-    total =  total +   factorial
+    total +=   factorial
     num = num // 10
 
 if total ==  original:

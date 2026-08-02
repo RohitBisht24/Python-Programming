@@ -1,6 +1,5 @@
 # Find all prime numbers from 1 to N using only while loops.
 num = int(input("Enter the Number : "))
-
 i = 2
 while i <= num:
     j = 2
