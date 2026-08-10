@@ -2,10 +2,10 @@ import json
 
 # ## for load data
 
-# with open("JSON_Methods//data.json", "r") as f :
-#     py_obj = json.load(f)
-#     print(py_obj)
-#     print(type(py_obj))
+with open("JSON_Methods//data.json", "r") as f :
+    py_obj = json.load(f)
+    print(py_obj)
+    print(type(py_obj))
 
 
 ### dump data
