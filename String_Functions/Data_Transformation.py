@@ -14,7 +14,7 @@ date = "19/06/2026"
 result = date.replace("/" , "-")
 print(result)   #19-06-2026
 
-# note: replace() is not just for changing values you can alsop remove unwnated parts by replacing them with as empty string("")
+# note: replace() is not just for changing values you can also remove unwnated parts by replacing them with as empty string("")
 
 #Ex 3:
 price1 = "$1,299.99"
