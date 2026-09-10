@@ -6,7 +6,3 @@ if age >= 18:
 else:
     print("not adult")
     print("you cannot vote")
-
-
-
-print(type(number))
