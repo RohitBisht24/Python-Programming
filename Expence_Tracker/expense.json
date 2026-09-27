@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "amount": 300.0,
+        "category": "Petrol",
+        "description": "Bike fuel",
+        "date": "27-09-2026"
+    },
+    {
+        "id": 2,
+        "amount": 150.0,
+        "category": "Food",
+        "description": "Lunch",
+        "date": "27-09-2026"
+    }
+]
