@@ -20,7 +20,8 @@ def check_winner():
             buttons[c].config(bg="green")
 
             winner = True
-            messagebox.showinfo("Tic-Tac-Toe", f"Player {buttons[a]['text']} wins!")
+            messagebox.showinfo(
+                "Tic-Tac-Toe", f"Player {buttons[a]['text']} wins!")
             return
 
     # Check draw
@@ -65,7 +66,32 @@ for i in range(9):
     button.grid(row=i // 3, column=i % 3)
     buttons.append(button)
 
-label = tk.Label(root, text=f"Player {current_player}'s turn", font=("Arial", 16))
+label = tk.Label(
+    root, text=f"Player {current_player}'s turn", font=("Arial", 16))
 label.grid(row=3, column=0, columnspan=3)
+
+
+def reset_game():
+    global current_player, winner
+
+    current_player = "X"
+    winner = False
+
+    for button in buttons:
+        button.config(text="", bg="SystemButtonFace")
+
+    label.config(text=f"Player {current_player}'s turn")
+
+
+again_button = tk.Button(
+    root,
+    text="Play Again",
+    font=("Arial", 10, "bold"),
+    bg="#2A7C13",
+    fg="white",
+    command=reset_game
+)
+
+again_button.grid(row=4, column=0, columnspan=3, pady=10)
 
 root.mainloop()
